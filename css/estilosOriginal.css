@@ -116,20 +116,20 @@
                              "main"
                              "footer";     
        }
-       .containerContacto .paginas nav ul {
-        display: flex;
+       .paginas{
+        /*display: flex;
         flex-direction: row;
         align-items:flex-end;
-        justify-content: end;
-        background-color: rgb(12, 107, 214);
-        padding: 15px;
+        justify-content: end;*/
+        background-color: rgb(12, 107, 214);}
+        /*padding: 15px;
        }
       .containerContacto .paginas nav ul li {
           list-style-type: none;
           margin: 0 12px;
         
-       }
-      .containerContacto .paginas nav ul li a {
+       }*/
+      .paginas nav ul li a {
           text-decoration: none;
           font-weight: bolder;
           font-style: italic;
@@ -137,7 +137,7 @@
           text-transform: uppercase;
           color: white;
        }
-       .containerContacto .paginas nav ul li a:hover{
+       .paginas nav ul li a:hover{
          color: rgb(255, 252, 69);
          }  
        .tituloContacto{
@@ -149,15 +149,15 @@
       text-align: center;
       padding-top: 25px;
        } 
-      .formulario {
+      /*.formulario {
         display:flex;
         flex-direction: column;
-        }
+        }*/
      .formularioDatos {
-        display: flex;
+        /*display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content:center;
+        justify-content:center;*/
         margin-top: 5%;
         color: rgb(12, 107, 214);
         font-style: italic;
@@ -165,17 +165,17 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: bold;
         }
-    .comenContacto{
+    /*.comenContacto{
         display: flex;        
         align-items: center;
         justify-content:center;
-        margin-top: 5%;
+        margin-top: 10%;
         color: rgb(12, 107, 214);
         font-style: italic;
         font-weight: 200;
         font-family: Arial, Helvetica, sans-serif;
         font-size: bold;
-    }
+    }*/
     .noticiaViaMail{
         color: black;
         font-size:large;
@@ -190,7 +190,7 @@
         align-items: center;
         justify-content: space-between;
         margin: 3%;
-        background-color: rgb(255, 252, 69);
+        
         }
        .privacidad{
         display: flex;
@@ -232,19 +232,19 @@
                              "main"
                              "footer"   
         }
-        .containerPlanes .paginas nav ul {
-        display: flex;
+        .paginas  {
+        /*display: flex;
         flex-direction: row;
         align-items:flex-end;
-        justify-content: end;
-        background-color: rgb(12, 107, 214);
-        padding: 15px;
+        justify-content: end;*/
+        background-color: rgb(12, 107, 214);}
+        /*padding: 15px;
         }
         .containerPlanes .paginas nav ul li {
         list-style-type: none;
         margin: 0 12px;
-        }
-        .containerPlanes .paginas nav ul li a {
+        }*/
+        .paginas nav ul li a {
         text-decoration: none;
         font-weight: bolder;
         font-style: italic;
@@ -252,7 +252,7 @@
         text-transform: uppercase;
         color: white;
         }
-        .containerPlanes .paginas nav ul li a:hover{
+        .paginas nav ul li a:hover{
          color: rgb(255, 252, 69);
          }
         .planDeAhorros{
@@ -369,19 +369,19 @@
                              "main"
                              "footer";  
            }
-        .containerVentas .paginas nav ul {
-        display: flex;
+        .paginas nav ul {
+        /*display: flex;
         flex-direction: row;
         align-items:flex-end;
-        justify-content: end;
-        background-color: rgb(12, 107, 214);
-        padding: 15px;
+        justify-content: end;*/
+        background-color: rgb(12, 107, 214);}
+        /*padding: 15px;
          }
         .containerVentas .paginas nav ul li {
          list-style-type: none;
          margin: 0 12px;
-         }
-        .containerVentas .paginas nav ul li a {
+         }*/
+        .paginas nav ul li a {
          text-decoration: none;
          font-weight: bolder;
          font-style: italic;
@@ -389,7 +389,7 @@
          text-transform: uppercase;
          color: white;
         }
-        .containerVentas .paginas nav ul li a:hover{
+        .paginas nav ul li a:hover{
          color: rgb(255, 252, 69);
          } 
         .tituloVentas{
@@ -431,62 +431,15 @@
         font-size: 20px;
         margin-top: 30px;
         }
-        .fomrularioCompleto{
-        display: flex;
-        flex-direction: column;
-         }
-        .marcaModelo {
-        display: flex;
-        flex-direction: row;
-        align-items:center;
-        justify-content:space-evenly;
-        color: rgb(12, 107, 214);
-        font-style: italic;
-        font-weight: 200;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: bold;
-        margin-top: 1%;
+        .formularioVentas{
+         color: rgb(12, 107, 214);
+         font-style: italic;
+         font-weight: 200;
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: bold;
+         padding: 1rem;        
+          }
         
-        }
-        .añoPuertas{
-            display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content:space-evenly;
-        color: rgb(12, 107, 214);
-        font-style: italic;
-        font-weight: 200;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: bold;
-        padding: 25px;
-        margin-left: 2%;
-        }
-        .combustibleKm{
-            display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        color: rgb(12, 107, 214);
-        font-style: italic;
-        font-weight: 200;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: bold;
-        padding: 25px;
-        margin-left: 2%;
-        }
-        .colorDetalle{
-            display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        color: rgb(12, 107, 214);
-        font-style: italic;
-        font-weight: 200;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: bold;
-        padding: 25px;
-        margin-left: 2%;
-        }
         .botones{
         display: flex;
         align-items: center;
@@ -531,19 +484,19 @@
                              "main"
                              "footer";  
         }
-        .containerCompra .paginas nav ul {
-        display: flex;
+        .paginas nav ul {
+        /*display: flex;
         flex-direction: row;
         align-items:flex-end;
-        justify-content: end;
-        background-color: rgb(12, 107, 214);
-        padding: 15px;
+        justify-content: end;*/
+        background-color: rgb(12, 107, 214);}
+        /*padding: 15px;
          }
         .containerCompra .paginas nav ul li {
          list-style-type: none;
          margin: 0 12px;
-         }
-        .containerCompra .paginas nav ul li a {
+         }*/
+        .paginas nav ul li a {
          text-decoration: none;
          font-weight: bolder;
          font-style: italic;
@@ -552,7 +505,7 @@
          color: white;
          
         }
-        .containerCompra .paginas nav ul li a:hover{
+        .paginas nav ul li a:hover{
          color: rgb(255, 252, 69);
          }
         .subMenuCompra nav ul  {
