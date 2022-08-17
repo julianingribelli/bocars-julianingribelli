@@ -1,0 +1,90 @@
+ @import "config.scss";
+ @import "variables.scss";
+
+
+
+
+
+
+/*header contacto*/
+
+
+.paginas nav ul {
+    
+    background-color: $color-azul;
+    
+             li {
+            list-style-type: none;
+            margin: 0 12px;
+            
+                     a {
+                    text-decoration: none;
+                    font-weight: bolder;
+                    font-style: italic;
+                    font-family: $fuente-general; 
+                    text-transform: uppercase;
+                    color: white;
+                    &:hover{
+                        color:$color-amarillo;
+                        }
+                    }
+
+            }
+    }
+
+/* pagina "contacto" listado de requisitos */
+.tituloVentas{
+    color:$color-azul;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 25px;  
+    }
+.parrafoVentas ol{
+    list-style-type:upper-latin;
+
+  
+                li {
+                color:$color-textos;
+                font-style: normal;
+                font-weight:bolder;
+                font-family: $fuente-general;
+                font-size:larger;
+                text-align: justify;
+                margin-top: 2%;           
+      
+  
+                        p {
+                        
+                        font-style: italic;
+                        font-weight: 200;
+                        }
+                }
+    }
+     /* cierre pagina "contacto" listado de requisitos */
+     /* formulario "contacto"*/
+     .subtituloCotizacion{
+        background-color:$color-azul;
+        color:$color-amarillo;
+        width: 100%;
+        height: 50px;
+        padding-top: 15px;
+        font-family:$fuente-general;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 20px;
+        margin-top: 30px;
+        }
+        .formularioVentas{
+            color:$color-azul;
+            font-style: italic;
+            font-weight: 200;
+            font-family:$fuente-general;
+            font-size: bold;
+            padding: 1rem;        
+             }
+    /*cierre de formulario "ventas"*/
+     
+

@@ -376,11 +376,11 @@
         justify-content: end;*/
         background-color: rgb(12, 107, 214);}
         /*padding: 15px;
-         }
-        .containerVentas .paginas nav ul li {
+         }*/
+        .paginas nav ul li {
          list-style-type: none;
          margin: 0 12px;
-         }*/
+         }
         .paginas nav ul li a {
          text-decoration: none;
          font-weight: bolder;
@@ -401,6 +401,10 @@
         text-align: center;
         padding-top: 25px;  
         }
+        .parrafoVentas ol{
+          list-style-type:upper-latin;
+
+        }
         .parrafoVentas ol li {
         color:black;
         font-style: normal;
@@ -411,13 +415,11 @@
         margin-top: 2%;           
             
         }
-        .parrafoVentas ol p {
-        color: black;
+        .parrafoVentas ol li p {
+        
         font-style: italic;
         font-weight: 200;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: large;
-        text-align: justify;
+        
         }
         .subtituloCotizacion{
         background-color: rgb(12, 107, 214);
@@ -432,13 +434,13 @@
         margin-top: 30px;
         }
         .formularioVentas{
-         color: rgb(12, 107, 214);
-         font-style: italic;
-         font-weight: 200;
-         font-family: Arial, Helvetica, sans-serif;
-         font-size: bold;
-         padding: 1rem;        
-          }
+          color: rgb(12, 107, 214);
+          font-style: italic;
+          font-weight: 200;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: bold;
+          padding: 1rem;        
+           }
         
         .botones{
         display: flex;
@@ -466,7 +468,7 @@
         flex-direction: row;
         align-items:end;
         justify-content:end;
-        background-color: rgb(255, 252, 69);
+       
         }
         .footer .iconos ul li {
         list-style-type: none;
