@@ -7,7 +7,7 @@
     height: 100vh;
     width: auto;
  }
- /*.containerIndex{
+ .containerIndex{
  position: relative;
  display: grid;
  grid-template-columns: auto;
@@ -15,21 +15,14 @@
  grid-template-areas: "header"
                       "main"
                       "footer";  
- }*/
+ }
  
  .paginas {
-   /* display: flex;
-    flex-direction: row;
-    align-items:flex-end;
-    justify-content: end;*/
+  
     background-color: rgb(12, 107, 214);
     
    }
-  /*.paginas nav ul li {
-      list-style-type: none;
-      margin: 0 12px    
-   }*/
-    
+
   .paginas nav ul li a {
       text-decoration: none;
       font-weight: bolder;
@@ -84,8 +77,7 @@
     padding: 35px;
    }
     .footer {
-    /*display: flex;
-    flex-direction: row;*/
+
     margin: 3%;
     }
     .privacidad{
@@ -95,19 +87,10 @@
    
     }
    .iconos ul{
-    /*display: flex;
-    flex-direction: row;
-    align-items:end;
-    justify-content:end;*/
+
     background-color: rgb(255, 252, 69);
     }
-    /*.iconos ul li {
-        list-style-type: none;
-        margin: 0 30px;
-        width: 50px;
-        height: 50px;
-    }
-    
+
  
     /*contacto-----------------------------------------------------------------------*/
     .containerContacto{
@@ -119,18 +102,9 @@
                              "footer";     
        }
        .paginas{
-        /*display: flex;
-        flex-direction: row;
-        align-items:flex-end;
-        justify-content: end;*/
+     
         background-color: rgb(12, 107, 214);}
-        /*padding: 15px;
-       }
-      .containerContacto .paginas nav ul li {
-          list-style-type: none;
-          margin: 0 12px;
-        
-       }*/
+ 
       .paginas nav ul li a {
           text-decoration: none;
           font-weight: bolder;
@@ -151,15 +125,9 @@
       text-align: center;
       padding-top: 25px;
        } 
-      /*.formulario {
-        display:flex;
-        flex-direction: column;
-        }*/
+   
      .formularioDatos {
-        /*display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content:center;*/
+ 
         margin-top: 5%;
         color: rgb(12, 107, 214);
         font-style: italic;
@@ -167,17 +135,7 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: bold;
         }
-    /*.comenContacto{
-        display: flex;        
-        align-items: center;
-        justify-content:center;
-        margin-top: 10%;
-        color: rgb(12, 107, 214);
-        font-style: italic;
-        font-weight: 200;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: bold;
-    }*/
+
     .noticiaViaMail{
         color: black;
         font-size:large;
@@ -187,43 +145,32 @@
         margin-top: 5%;        
        } 
         .footer {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+   
         justify-content: space-between;
         margin: 3%;
         
         }
        .privacidad{
-        display: flex;
-        align-items: initial;    
-        text-align:left;
+  
         font-family: Arial, Helvetica, sans-serif;
         font-weight:bolder;      
         }
         
          .footer .iconos ul li {
-            list-style-type: none;
+            
             margin: 0 30px;
             width: 50px;
             height: 50px;
           }
           .iconosFooter{
-           display: flex;
-           flex-direction: row;
+           
            list-style-type: none;
+           
            justify-content: space-around;
          
           }
-         /* mediaqueriii-------------------------------------------------------- */
-        @media screen and (max-widht:360px){
-          .formularioDatos {
-             display: flex;
-             flex-direction: column;
-             align-items: center;
-             justify-content: center;
-          }
-        }
+        
+       
         /*planes financiados -----------------------------------------------------------------------  */
  
         .containerPlanes{
@@ -235,17 +182,9 @@
                              "footer"   
         }
         .paginas  {
-        /*display: flex;
-        flex-direction: row;
-        align-items:flex-end;
-        justify-content: end;*/
+  
         background-color: rgb(12, 107, 214);}
-        /*padding: 15px;
-        }
-        .containerPlanes .paginas nav ul li {
-        list-style-type: none;
-        margin: 0 12px;
-        }*/
+  
         .paginas nav ul li a {
         text-decoration: none;
         font-weight: bolder;
@@ -257,12 +196,8 @@
         .paginas nav ul li a:hover{
          color: rgb(255, 252, 69);
          }
-        .planDeAhorros{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+      
+        
         .tituloPlanes{
             color: rgba(12, 107, 214);
             font-style: normal;
@@ -281,12 +216,7 @@
         text-align: center;
         margin-top: 15px;
         }
-        .requisitos{
-        display: flex;
-        flex-direction: column;
-        align-items:start ;
-        justify-content: start;    
-        }
+  
         .subtituloRequisitos{
         background-color: rgb(12, 107, 214);
         color: rgb(255, 252, 69);
@@ -310,26 +240,7 @@
         margin-top: 10px;
         list-style-type: square;
         }
-        .tablaPlanes{
-        display: inline-block;
-        height: auto;
-        width: auto;
-        margin-left: 25%;
-        margin-top: 15px;
-        border-width: 10px;
-        letter-spacing: 5px;
-        border-style: solid ;
-        border-top-color:rgb(12, 107, 214);
-        border-bottom-color: rgb(12, 107, 214);
-        border-right-color: rgb(255, 252, 69);
-        border-left-color: rgb(255, 252, 69);    
-        }
-        tr{
-        border-style:solid;
-        border-color:rgb(12, 107, 214);
-        border-width: 10px;
-        font-family: Arial, Helvetica, sans-serif;    
-        }
+        
         .footer {
             display: flex;
             flex-direction: row;
@@ -372,13 +283,9 @@
                              "footer";  
            }
         .paginas nav ul {
-        /*display: flex;
-        flex-direction: row;
-        align-items:flex-end;
-        justify-content: end;*/
+     
         background-color: rgb(12, 107, 214);}
-        /*padding: 15px;
-         }*/
+    
         .paginas nav ul li {
          list-style-type: none;
          margin: 0 12px;
@@ -444,11 +351,7 @@
           padding: 1rem;        
            }
         
-        .botones{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        }
+    
         .footer {
         display: flex;
         flex-direction: row;
@@ -489,17 +392,9 @@
                              "footer";  
         }
         .paginas nav ul {
-        /*display: flex;
-        flex-direction: row;
-        align-items:flex-end;
-        justify-content: end;*/
+      
         background-color: rgb(12, 107, 214);}
-        /*padding: 15px;
-         }
-        .containerCompra .paginas nav ul li {
-         list-style-type: none;
-         margin: 0 12px;
-         }*/
+  
         .paginas nav ul li a {
          text-decoration: none;
          font-weight: bolder;
@@ -544,19 +439,10 @@
         margin-top: 15px;
         margin-bottom: 15px;
         }
-        .galeriaAutos{
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        justify-content: cente
-        }
+       
         
         
-        .sectionGaleria {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content:space-between;
+        .sectionGaleria {        
         font-style: normal;
         font-weight: bold;
         font-size: large;

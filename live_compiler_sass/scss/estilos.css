@@ -1,4 +1,4 @@
-/*variables*/
+
 /*header contacto*/
 .paginas nav ul {
   background-color: rgb(12, 107, 214);
@@ -19,7 +19,7 @@
   color: rgb(255, 252, 69);
 }
 
-/* pagina "contacto" listado de requisitos */
+/* pagina "contacto" listado de requisitos "anidado y agregado de variables" */
 .tituloVentas {
   color: rgb(12, 107, 214);
   font-style: normal;
@@ -71,4 +71,45 @@
   padding: 1rem;
 }
 
-/*cierre de formulario "ventas"*//*# sourceMappingURL=estilos.css.map */
+/*cierre de formulario "ventas"*/
+/*""maps"" de un bloque de la pag  "planes financiados"*/
+.listaRequisitos ol li {
+  color: black;
+  font-style: italic;
+  font-weight: 200;
+  font-family: arial helvetica sans-serif;
+  font-size: large;
+  text-align: justify;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  list-style-type: square;
+}
+
+/* el """extend""" de  la pagina "contacto y planes financiados" */
+.tituloContacto, .tituloPlanes {
+  color: rgb(12, 107, 214);
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 35px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.tituloPlanes {
+  padding-top: 26px;
+}
+
+/*--------------mixin --------------- */
+.subtituloCotizacion {
+  background-color: rgb(12, 107, 214);
+  color: rgb(255, 252, 69);
+  width: 100%;
+  height: 50px;
+  padding-top: 15px;
+  font-family: Arial Helvetica sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  margin-top: 30px;
+}/*# sourceMappingURL=estilos.css.map */
