@@ -7,6 +7,10 @@
     height: 100vh;
     width: auto;
  }
+  .logoEncabezado img{
+    width:15% ;
+  
+  }
  .containerIndex{
  position: relative;
  display: grid;
